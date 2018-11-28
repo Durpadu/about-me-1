@@ -8,7 +8,7 @@ if(startGame) {
   alert('Ok see you later :(');
 }
 
-var favColor = prompt('Do you think my favorite color is yellow? ').toUpperCase();
+var favColor = prompt('Do you think my favorite color is yellow?').toUpperCase();
 
 if(favColor === 'YES') {
     alert('You are correct!! I like Yellow.');
