@@ -10,20 +10,23 @@ if(startGame) {
   console.log('They want don\'t want to play a game.');
 }
 
+var name = prompt('What is your name?');
+
+// Question 1
 var favColor = prompt('Do you think my favorite color is yellow?').toUpperCase();
 
 if(favColor === 'YES') {
-    alert('You are correct!! I like Yellow.');
-    console.log('Correct about Yellow.');
-  } else if (favColor === 'NO') {
-    alert('WRONG! I like yellow.');
-    console.log('Wrong about Yellow.');
-  } else {
-    alert('Please answer with yes or no! Use words people.');
-    console.log('Didn\t use yes or no, on Yellow Question.');
+  alert('You are correct!! I like Yellow.');
+  console.log('Correct about Yellow.');
+} else if (favColor === 'NO') {
+  alert('WRONG! I like yellow.');
+  console.log('Wrong about Yellow.');
+} else {
+  alert('Please answer with yes or no! Use words people.');
+  console.log('Didn\'t use yes or no, on Yellow Question.');
+}
 
-  }
-
+// Question 2
 var favFood = prompt('Do you think my favorite food is sushi?').toUpperCase();
 
 if(favFood === 'YES') {
@@ -34,10 +37,11 @@ if(favFood === 'YES') {
   console.log('Wrong about Sushi.');
 } else {
   alert('Please answer with yes or no! Use words people.');
-  console.log('Didn\t use yes or no, on Sushi Question.');
+  console.log('Didn\'t use yes or no, on Sushi Question.');
 
 }
 
+// Question 3
 var bananas = prompt('Do you think I like bananas?').toUpperCase();
 
 if(bananas === 'YES') {
@@ -48,10 +52,11 @@ if(bananas === 'YES') {
   console.log('Wrong about bananas.');
 } else {
   alert('Please answer with yes or no! Use words people.');
-  console.log('Didn\t use yes or no, on Bananas Question.');
+  console.log('Didn\'t use yes or no, on Bananas Question.'); 
 
 }
 
+// Question 4
 var coffee = prompt('Do you think I like coffee?').toUpperCase();
 
 if(coffee === 'YES') {
@@ -62,9 +67,10 @@ if(coffee === 'YES') {
   console.log('Wrong about coffee.');
 } else {
   alert('Please answer with yes or no! Use words people.');
-  console.log('Didn\t use yes or no, on Coffee Question.');
+  console.log('Didn\'t use yes or no, on Coffee Question.');
 }
 
+// Question 5
 var basketball = prompt('Do you think I like basketball?').toUpperCase();
 
 if(basketball === 'YES') {
@@ -75,6 +81,72 @@ if(basketball === 'YES') {
   console.log('Wrong like basketball');
 } else {
   alert('Please answer with yes or no! Use words people.');
-  console.log('Didn\t use yes or no, on basketball Question.');
+  console.log('Didn\'t use yes or no, on Basketball Question.');
 }
 
+
+// // Question 6
+// // var guessNumber = prompt('Can you guess my favorite number? You have 4 tries to guess it.');
+// var guessesRemaining = 1;
+
+// while(guessesRemaining < 5) {
+//  do something here;
+//  ++guessesRemaining;
+// }
+
+
+// while(guessesRemaining === !3) {
+//   console.log('Wrong');
+// }
+
+// while(guessesRemaining = 5) {
+//   prompt('Can you guess my favorite number? You have 4 tries to guess it.')
+//   ++guessesRemaining;
+// }
+
+// var favNumber = 3;
+// while(flag === false) {
+//   make the user keep guessing;
+//   if correct, reassign flag to true;
+// }
+
+// // 4 tries
+// // too high
+// // too low
+
+
+// // Question 7
+// var guessStates = prompt('Can you guess which states I\'ve lived in?');
+// var states = ['Kansas','Oregon','Missouri','Washington'];
+
+// 6 tries
+// upon 6 tries or a match
+// alert('I\'ve lived in Kansas, Oregon & Missouri!');
+
+// var numGuess = prompt('Guess my favorite number, it is between 1 and 3');
+
+// switch(numGuess) {
+//  case '0':
+//    alert('Too low');
+
+//  case '1':
+//    alert('Correct!');
+//    break;
+
+//  case '2':
+//    alert('Too high!');
+
+//  default:
+//    break;
+// }
+
+
+
+
+// // Question 8
+// count correct answers
+// while(the # of correct answers is increasing){
+
+// }
+
+// alert('You got' + numberCorrect + 'out of 7 questions correct, ' + name + '! Better luck next time.');

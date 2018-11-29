@@ -10,6 +10,59 @@ body {
     padding-top: 100px;
   }
 
+  h2, h3{
+    font-size: 35px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+  }
+
   p {
     text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+
+  }
+
+  ul#nav li { 
+    display: inline;
+    float: center;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+
+  }
+
+  ol {
+    margin-top: 50px;
+    color: white;
+    padding: 20px; 
+    list-style-type: decimal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+ol li {
+    float: left;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+  
+  ul {
+    display: inline;
+    float: center;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+  }
+
+  ul li {
+    margin: 0 auto;
   }
