@@ -85,68 +85,66 @@ if(basketball === 'YES') {
 }
 
 
-// // Question 6
-// // var guessNumber = prompt('Can you guess my favorite number? You have 4 tries to guess it.');
-// var guessesRemaining = 1;
+// Question 6
 
-// while(guessesRemaining < 5) {
-//  do something here;
-//  ++guessesRemaining;
+alert('Can you guess my favorite number?');
+
+var counter = 0;
+
+while (counter < 5) {
+  var answer = prompt('What’s your guess?');
+
+  if ( answer === 3) {
+  alert ('Right answer');
+  ++counterCorrect
+  break;
+  }
+
+  else if (answer > 3){
+    alert('your number is too high');
+    ++counter
+  }
+  
+  else if (answer < 3){
+   alert('your number is too low');
+   ++counter
+ }
+
+
+alert('Oh man, 4 tries is up, the answer is was 3!');
+
+
+
+// Question 7
+
+alert('Can you guess the states I\'ve lived in?');
+
+var states = ['Oregon', 'Washington', 'Missouri']
+states = states.toUpperCase();
+
+var answer = prompt('What is your guess?');
+answer = answer.toUpperCase();
+
+for ( i=1 ; i<7 ; i++ ); {
+
+  if (answer === states[i]) {
+    alert ('you got it right');
+    ++counterCorrect
+    break;
+    }
+
+  else {
+    alert('wrong answer');
+    i++
+  }
+}
+
+  alert('6 tries is up, the answer is ...');
+
+  alert('You got ' + counterCorrect + ' out of 7 questions,' + name );
+  
+}
+
+// if (cityWouldLive.includes(cityGuessed)) {
+//   ... 
 // }
-
-
-// while(guessesRemaining === !3) {
-//   console.log('Wrong');
-// }
-
-// while(guessesRemaining = 5) {
-//   prompt('Can you guess my favorite number? You have 4 tries to guess it.')
-//   ++guessesRemaining;
-// }
-
-// var favNumber = 3;
-// while(flag === false) {
-//   make the user keep guessing;
-//   if correct, reassign flag to true;
-// }
-
-// // 4 tries
-// // too high
-// // too low
-
-
-// // Question 7
-// var guessStates = prompt('Can you guess which states I\'ve lived in?');
-// var states = ['Kansas','Oregon','Missouri','Washington'];
-
-// 6 tries
-// upon 6 tries or a match
-// alert('I\'ve lived in Kansas, Oregon & Missouri!');
-
-// var numGuess = prompt('Guess my favorite number, it is between 1 and 3');
-
-// switch(numGuess) {
-//  case '0':
-//    alert('Too low');
-
-//  case '1':
-//    alert('Correct!');
-//    break;
-
-//  case '2':
-//    alert('Too high!');
-
-//  default:
-//    break;
-// }
-
-
-
-
-// // Question 8
-// count correct answers
-// while(the # of correct answers is increasing){
-
-// }
-
-// alert('You got' + numberCorrect + 'out of 7 questions correct, ' + name + '! Better luck next time.');
